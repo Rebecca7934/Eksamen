@@ -129,8 +129,8 @@ nav ul li a:hover {
 .design, .editing, .some{
     border: 3px solid #464545;
     border-radius: 20px;
-    padding: 40px;
-    margin: 10px;
+    padding: 35px;
+    margin: 5px;
     text-align: center;
     width: 200px;
     height: 250px;
@@ -439,9 +439,7 @@ footer img{
     margin: 10px 5px 10px 5px;
 }
 
-/* Desktop css*/
-
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px){
 
     nav{
         flex-direction: row;
@@ -455,6 +453,7 @@ footer img{
     .services{
         margin-top: 280px;
     }
+
     .mememe{
         margin: 30px 180px 30px 180px;
     }
@@ -465,6 +464,21 @@ footer img{
         justify-content: center;
         
     }
+
+    .design, .editing, .some{
+        margin: 20px;
+    }
+
+    .about{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+/* Desktop css*/
+
+@media screen and (min-width: 992px) {
 
     .design, .editing, .some{
         margin: 30px;
@@ -501,10 +515,6 @@ footer img{
         
     }
 
-    .about{
-        flex-direction: row;
-        justify-content: center;
-    }
 
     .skills, .experience{
         margin: 30px;
