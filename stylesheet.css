@@ -433,6 +433,10 @@ footer p{
     color: var(--txt-color);
 }
 
+footer a{
+    color: var(--txt-color);
+}
+
 footer img{
     width: 30px;
     height: auto;
